@@ -2,11 +2,6 @@ package TestPackage;
 
 import org.testng.annotations.Test;
 
-import com.microsoft.playwright.Browser;
-import com.microsoft.playwright.BrowserType;
-import com.microsoft.playwright.Page;
-import com.microsoft.playwright.Playwright;
-
 import basetest.BaseTest;
 
 public class FirstTest extends BaseTest {
@@ -18,7 +13,7 @@ public class FirstTest extends BaseTest {
 			page.click("buton:has-text('Accept all')");
 		}
 		System.out.println("The Page Title is : "+page.title());
-			
+		System.out.println("The Page Title is1 : "+page.title());
 		
 	}
 	
@@ -28,7 +23,7 @@ public class FirstTest extends BaseTest {
 //			Page page =browser.newPage();
 //			page.navigate("https://google.com");
 //			System.out.println("The page title is"+page.title());
-//			browser.close();
+//			browser.close();-----
 //		}
 //	}
 
